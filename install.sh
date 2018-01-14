@@ -7,10 +7,10 @@ sudo gsettings set org.gnome.Vino prompt-enabled false
 sudo gsettings set org.gnome.Vino require-encryption false
 
 sudo echo "VNC server setup done"
-sudo mkdir /root/.config/autostart
+sudo mkdir /root/home/pi/.config/autostart
 
 sudo echo "**********************Making autorun VNC script************************"
-echo "[Desktop Entry]
+sudo echo "[Desktop Entry]
 Encoding=UTF-8
 Type=Application
 Name=VINO
