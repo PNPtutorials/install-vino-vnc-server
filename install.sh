@@ -10,6 +10,14 @@ sudo echo "VNC server setup done"
 sudo mkdir /home/pi/.config/autostart
 
 sudo echo "**********************Making autorun VNC script************************"
-sudo echo "[Desktop Entry]\nEncoding=UTF-8\nType=Application\nName=VINO\nComment=\nExec=/usr/lib/vino/vino-server\nStartupNotify=false\nTerminal=false\nHidden=false\n" > /home/pi/.config/autostart/vino.desktop
+sudo echo "[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=VINO
+Comment=
+Exec=/usr/lib/vino/vino-server
+StartupNotify=false
+Terminal=false
+Hidden=false" > /home/pi/.config/autostart/vino.desktop
 
 sudo echo "VNC autorun on startup done"
